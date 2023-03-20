@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 07</title>
+</head>
+<body>
+    <script>
+        // Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.  
+        let num1 = parseFloat(prompt("Digite um número: "));
+        let num2 = parseFloat(prompt("Digite um número: "));
+        let num3 = parseFloat(prompt("Digite um número: "));
+        let num4 = parseFloat(prompt("Digite um número: "));
+        let num5 = parseFloat(prompt("Digite um número: "));
+        let num6 = parseFloat(prompt("Digite um número: "));
+        let soma = 0;
+        if(num1<72){
+            soma = soma + num1;
+        }
+        if(num2<72){
+            soma = soma + num2;
+        }
+        if(num3<72){
+            soma = soma + num3;
+        }
+        if(num4<72){
+            soma = soma + num4;
+        }
+        if(num5<72){
+            soma = soma + num5;
+        }
+        if(num6<72){
+            soma = soma + num6;
+        }
+        document.write("A soma dos número menores que 72 é de: " + soma + "<br>")
+        document.write("O numero 1 é: " + num1 +"<br>");
+        document.write("O numero 2 é: " + num2 +"<br>");
+        document.write("O numero 3 é: " + num3 +"<br>");
+        document.write("O numero 4 é: " + num4 +"<br>");
+        document.write("O numero 5 é: " + num5 +"<br>");
+        document.write("O numero 6 é: " + num6 +"<br>");
+    </script>
+</body>
+</html>

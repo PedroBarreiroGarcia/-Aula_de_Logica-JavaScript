@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04</title>
+</head>
+<body>
+
+    <script>
+        // Faça um programa que leia dois valores informados pelo usuário e exiba uma das três mensagens a seguir: ‘Números iguais’, caso os números sejam iguais ‘Primeiro é maior’, caso o primeiro seja maior que o segundo; ‘Segundo maior’, caso o segundo seja maior que o primeiro.
+        let num1 = parseFloat(prompt("Digite um número: "));
+        let num2= parseFloat(prompt("Digite outro número: "));
+
+        if (num1==num2){
+            document.write("Números iguais")
+        }else if(num2>num1){
+            document.write("O segundo número é maior que o primeiro ")
+        }else if(num1>num2){
+            document.write("O primeiro número é maior que o segundo ")
+        }
+    </script>
+    
+</body>
+</html>
